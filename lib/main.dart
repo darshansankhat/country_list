@@ -2,26 +2,26 @@ import 'package:flutter/material.dart';
 
 void main() {
   List l1 = [
-    "🇮🇳   India   🇮🇳",
-    "🇺🇲   USA   🇺🇲",
-    "🇳🇵   Nepal   🇳🇵",
-    "🇨🇴   Colombia   🇨🇴",
-    "🇨🇦   Canada   🇨🇦",
-    "🇩🇰   Denmark   🇩🇰,",
-    "🇮🇩   Indonesia   🇮🇩",
-    "🇮🇷   Iran   🇮🇷",
-    "🇮🇶   Iraq   🇮🇶",
-    "🇯🇵   Japan   🇯🇵",
-    "🇯🇴   Jordan   🇯🇴",
-    "🇰🇿   Kazakhstan   🇰🇿",
-    "🇿🇼   Zimbabwe   🇿🇼",
-    "🇪🇸   Spain   🇪🇸",
-    "🇸🇬   Singapore   🇸🇬",
-    "🇷🇺   Russia   🇷🇺",
-    "🇵🇹   Portugal   🇵🇹",
-    "🇷🇴   Oman   🇷🇴",
-    "🇲🇽   Mexico   🇲🇽",
-    "🇭🇺   Hungary   🇭🇺",
+    "   India   🇮🇳",
+    "   USA   🇺🇲",
+    "   Nepal   🇳🇵",
+    "   Colombia   🇨🇴",
+    "   Canada   🇨🇦",
+    "   Denmark   🇩🇰,",
+    "   Indonesia   🇮🇩",
+    "   Iran   🇮🇷",
+    "   Iraq   🇮🇶",
+    "   Japan   🇯🇵",
+    "   Jordan   🇯🇴",
+    "   Kazakhstan   🇰🇿",
+    "   Zimbabwe   🇿🇼",
+    "   Spain   🇪🇸",
+    "   Singapore   🇸🇬",
+    "   Russia   🇷🇺",
+    "   Portugal   🇵🇹",
+    "   Oman   🇷🇴",
+    "   Mexico   🇲🇽",
+    "   Hungary   🇭🇺",
   ];
   List c1 = [
     Colors.orange,
@@ -94,12 +94,12 @@ Widget CountryList(String data, c1) {
             borderRadius: BorderRadius.circular(50),
             color: c1,
             border: Border.all(color: Colors.black, width: 2)),
-        child: Center(
-            child: Text(
+        alignment: Alignment.centerLeft,
+        child: Text(
           "$data",
           style: TextStyle(
-              fontSize: 30, fontWeight: FontWeight.bold, color: Colors.black),
-        )),
+          fontSize: 30, fontWeight: FontWeight.bold, color: Colors.black),
+        ),
       ),
     ],
   );
